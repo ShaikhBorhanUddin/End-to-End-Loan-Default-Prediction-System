@@ -1,4 +1,6 @@
-# End-to-End Loan Default Prediction System
+# End-to-End Loan Default Prediction System 
+
+![Dashboard](Assets/title.png)
 
 ## Overview 
 
