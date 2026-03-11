@@ -25,6 +25,14 @@ The project based on a scaled down [Dataset](https://www.kaggle.com/datasets/jan
 | **Account Balance Metrics**       | tot_cur_bal, tot_coll_amt, all_util, total_cu_tl                                                                                                | Numeric, Integer             | Overall credit balances, collections and financial trade counts                             |
 | **Payment & Loan Performance**    | out_prncp, out_prncp_inv, total_pymnt, total_pymnt_inv, total_rec_prncp, total_rec_int, total_rec_late_fee, recoveries, collection_recovery_fee | Numeric                      | Payment performance and recovery amounts                                                    |
 | **Date Features**                 | issue_d, last_pymnt_d, next_pymnt_d, last_credit_pull_d                                                                                         | Date                         | Important loan timeline events                                                              |
-| **Recent Account Activity**       | open_acc_6m                                                                                                                                     | Integer                      | Number of credit accounts opened recently                                                   |
+| **Recent Account Activity**       | open_acc_6m                                                                                                                                     | Integer                      | Number of credit accounts opened recently                                                   | 
+
+## data Cleaning 
+
+## Feature Engineering 
+
+## Exploratory Data Analysis 
+
+
 
 
