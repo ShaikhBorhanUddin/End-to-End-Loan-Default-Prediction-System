@@ -2,7 +2,7 @@
 
 ## Overview 
 
-## dataset 
+## Dataset 
 
 [Dataset](https://www.kaggle.com/datasets/janiobachmann/lending-club-first-dataset) 
 
