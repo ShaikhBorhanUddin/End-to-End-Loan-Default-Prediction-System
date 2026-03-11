@@ -6,6 +6,10 @@
 
 Lending Club is a peer-to-peer Lending company based in the US. They match people looking to invest money with people looking to borrow money. When investors invest their money through Lending Club, this money is passed onto borrowers, and when borrowers pay their loans back, the capital plus the interest passes on back to the investors. It is a win for everybody as they can get typically lower loan rates and higher investor returns. 
 
+## Folder Structure 
+
+## Project Workflow 
+
 ## Dataset 
 
 The project based on a scaled down [Dataset](https://www.kaggle.com/datasets/janiobachmann/lending-club-first-dataset). The [Lending Club original dataset](https://www.kaggle.com/datasets/adarshsng/lending-club-loan-data-csv/data) contains complete loan data for all loans issued through the 2007-2015, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. Features (aka variables) include credit scores, number of finance inquiries, address including zip codes and state, and collections among others. Collections indicates whether the customer has missed one or more payments and the team is trying to recover their money. The file is a matrix of about 890 thousand observations and 75 variables. 
@@ -27,7 +31,7 @@ The project based on a scaled down [Dataset](https://www.kaggle.com/datasets/jan
 | **Date Features**                 | issue_d, last_pymnt_d, next_pymnt_d, last_credit_pull_d                                                                                         | Date                         | Important loan timeline events                                                              |
 | **Recent Account Activity**       | open_acc_6m                                                                                                                                     | Integer                      | Number of credit accounts opened recently                                                   | 
 
-## data Cleaning 
+## Data Cleaning 
 
 ## Feature Engineering 
 
