@@ -35,6 +35,31 @@ The project based on a scaled down [Dataset](https://www.kaggle.com/datasets/jan
 
 ## Data Cleaning 
 
+loan_amnt
+term
+int_rate
+installment
+grade
+sub_grade
+annual_inc
+verification_status
+dti
+earliest_cr_line
+open_acc
+total_acc
+revol_bal
+revol_util
+all_util
+delinq_2yrs
+acc_now_delinq
+mths_since_last_delinq
+pub_rec
+collections_12_mths_ex_med
+inq_last_6mths
+inq_last_12m
+tot_cur_bal
+total_rev_hi_lim
+home_ownership
 ## Feature Engineering 
 
 ## Exploratory Data Analysis 
