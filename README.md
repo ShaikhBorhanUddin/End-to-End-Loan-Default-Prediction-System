@@ -43,7 +43,7 @@ Keep features:
 
 `acc_now_delinq` `mths_since_last_delinq` `pub_rec` `collections_12_mths_ex_med` `inq_last_6mths` 
 
-`inq_last_12m` `tot_cur_bal` `total_rev_hi_lim` `home_ownership` 
+`inq_last_12m` `tot_cur_bal` `total_rev_hi_lim` `home_ownership` `addr_state` 
 
 Target: `loan_status` 
 
