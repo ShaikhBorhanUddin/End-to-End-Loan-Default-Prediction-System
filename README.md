@@ -68,6 +68,40 @@ Target: `loan_status`
 | East            | 4      |
 | Out of Mainland | 2      | 
 
+```bash
+region_map = {
+
+# WEST
+'CA':'West','OR':'West','WA':'West','NV':'West','AZ':'West','UT':'West','ID':'West',
+
+# SOUTH
+'TX':'South','FL':'South','GA':'South','NC':'South','SC':'South','VA':'South',
+'TN':'South','AL':'South','MS':'South','LA':'South','AR':'South','OK':'South',
+'KY':'South','WV':'South',
+
+# NORTH
+'NY':'North','NJ':'North','MA':'North','CT':'North','RI':'North',
+'VT':'North','NH':'North','ME':'North',
+
+# CENTRAL
+'IL':'Central','MO':'Central','MN':'Central','WI':'Central','MI':'Central',
+'IA':'Central','KS':'Central','NE':'Central','SD':'Central','ND':'Central',
+'IN':'Central','OH':'Central',
+
+# EAST
+'PA':'East','MD':'East','DE':'East','DC':'East',
+
+# OUT OF MAINLAND
+'AK':'Out_Mainland','HI':'Out_Mainland'
+}
+```
+
+```bash
+df['region'] = df['addr_state'].map(region_map).fillna('Unknown')
+```
+
+
+
 
 
 
