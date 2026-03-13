@@ -106,6 +106,12 @@ region_map = {
 df['region'] = df['addr_state'].map(region_map).fillna('Unknown')
 ```
 
+Create `revol_util_risk` field from `revol_util` column: 
+
+| Utilization | Risk     |
+| ----------- | -------- |
+| 0–30%       | healthy  |
+| 30–60%      | moderate |
 
 
 
