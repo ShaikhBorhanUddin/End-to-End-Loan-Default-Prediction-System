@@ -37,6 +37,12 @@ The project based on a scaled down [Dataset](https://www.kaggle.com/datasets/jan
 
 ## Data Cleaning 
 
+```bash
+'Does not meet the credit policy. Status:Fully Paid': 'Fully Paid',
+    'Does not meet the credit policy. Status:Charged Off': 'Charged Off',
+    'Default': 'Charged Off'
+```
+
 Keep features: 
 
 `loan_amnt` `term` `int_rate` `installment` `grade` `sub_grade` `annual_inc` `verification_status` 
