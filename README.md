@@ -55,7 +55,7 @@ Target: `loan_status`
 
 ## Note 
 
-`grade` will not be used for training. But, input will be taked in deployment. Upon selection, sub_grade will be filetered (for example, if A is selected for grade, users can choose from A1 to A5 instead of A1 to G5). 
+`grade` will not be used for training. But, input will be taked in deployment. Upon selection, `sub_grade` will be filetered (for example, if A is selected for grade, users can choose from A1 to A5 instead of A1 to G5). 
 
 `region` field will be created during feature engineering section. In deployment, `addr_state` will be filtered according to `region` selection. 
 
