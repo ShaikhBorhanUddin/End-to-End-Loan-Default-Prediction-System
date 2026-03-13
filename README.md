@@ -33,6 +33,8 @@ The project based on a scaled down [Dataset](https://www.kaggle.com/datasets/jan
 | **Date Features**                 | issue_d, last_pymnt_d, next_pymnt_d, last_credit_pull_d                                                                                         | Date                         | Important loan timeline events                                                              |
 | **Recent Account Activity**       | open_acc_6m                                                                                                                                     | Integer                      | Number of credit accounts opened recently                                                   | 
 
+![Dashboard](Assets/null_value_count.png) 
+
 ## Data Cleaning 
 
 Keep features: 
