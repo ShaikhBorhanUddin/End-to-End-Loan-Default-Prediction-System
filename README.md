@@ -112,6 +112,8 @@ Create `revol_util_risk` field from `revol_util` column:
 | ----------- | -------- |
 | 0–30%       | healthy  |
 | 30–60%      | moderate |
+| 60% +       | high     |
+
 
 
 
