@@ -112,7 +112,17 @@ Create `revol_util_risk` field from `revol_util` column:
 | ----------- | -------- |
 | 0–30%       | healthy  |
 | 30–60%      | moderate |
-| 60% +       | high     |
+| 60% +       | high     | 
+
+Create `dti_risk_level` from `dti` column: 
+
+| DTI   | Interpretation  |
+| ----- | --------------- |
+| 0–20  | low debt burden |
+| 20–35 | manageable      |
+| 35–50 | high            |
+| 50 +  | extremely risky |
+
 
 
 
