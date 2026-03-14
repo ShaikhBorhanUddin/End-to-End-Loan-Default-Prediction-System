@@ -146,6 +146,45 @@ Create `dti_risk_level` from `dti` column:
 | **Total Credit Exposure**        | tot_cur_bal, total_rev_hi_lim                            | Overall borrower debt exposure                                           |
 | **Borrower Profile**             | home_ownership, emp_length                               | Indicators of financial stability                                        | 
 
+| Grade | Sub Grade | Suggested Interest Rate |
+| ----- | --------- | ----------------------- |
+| A     | A1        | 6.0%                    |
+| A     | A2        | 6.5%                    |
+| A     | A3        | 7.0%                    |
+| A     | A4        | 7.5%                    |
+| A     | A5        | 8.0%                    |
+| B     | B1        | 8.5%                    |
+| B     | B2        | 9.0%                    |
+| B     | B3        | 9.5%                    |
+| B     | B4        | 10.0%                   |
+| B     | B5        | 10.5%                   |
+| C     | C1        | 11.0%                   |
+| C     | C2        | 12.0%                   |
+| C     | C3        | 13.0%                   |
+| C     | C4        | 14.0%                   |
+| C     | C5        | 15.0%                   |
+| D     | D1        | 16.0%                   |
+| D     | D2        | 17.0%                   |
+| D     | D3        | 18.0%                   |
+| D     | D4        | 19.0%                   |
+| D     | D5        | 20.0%                   |
+| E     | E1        | 21.0%                   |
+| E     | E2        | 22.0%                   |
+| E     | E3        | 23.0%                   |
+| E     | E4        | 24.0%                   |
+| E     | E5        | 25.0%                   |
+| F     | F1        | 26.0%                   |
+| F     | F2        | 27.0%                   |
+| F     | F3        | 28.0%                   |
+| F     | F4        | 29.0%                   |
+| F     | F5        | 30.0%                   |
+| G     | G1        | 31.0%                   |
+| G     | G2        | 32.0%                   |
+| G     | G3        | 33.0%                   |
+| G     | G4        | 34.0%                   |
+| G     | G5        | 35.0%                   |
+
+
 
 
 
