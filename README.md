@@ -146,7 +146,7 @@ Create `dti_risk_level` from `dti` column:
 | **Total Credit Exposure**        | tot_cur_bal, total_rev_hi_lim                            | Overall borrower debt exposure                                           |
 | **Borrower Profile**             | home_ownership, emp_length                               | Indicators of financial stability                                        | 
 
-Sub Grade will be auto filtered upon selecting Grade. Once Sub Grade is selected, Interest Rate will be auto filled. If user manually change interest rate, Grade and Sub Grade will be dynamically updated. 
+Sub Grade will be auto filtered upon selecting Grade. Once Sub Grade is selected, Interest Rate and risk_tier will be auto filled. If user manually change interest rate, Grade, Sub Grade and risk_tier will be dynamically updated. 
 
 | Grade | Sub Grade | Suggested Interest Rate |
 | ----- | --------- | ----------------------- |
