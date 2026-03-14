@@ -121,7 +121,11 @@ Create `dti_risk_level` from `dti` column:
 | 0–20  | low debt burden |
 | 20–35 | manageable      |
 | 35–50 | high            |
-| 50 +  | extremely risky |
+| 50 +  | extremely risky | 
+
+
+## Deployment Guideline 
+
 
 
 
