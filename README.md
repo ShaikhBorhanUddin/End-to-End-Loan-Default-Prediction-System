@@ -184,7 +184,17 @@ Sub Grade will be auto filtered upon selecting Grade. Once Sub Grade is selected
 | G     | G2        | 32.0%                   |
 | G     | G3        | 33.0%                   |
 | G     | G4        | 34.0%                   |
-| G     | G5        | 35.0%                   |
+| G     | G5        | 35.0%                   | 
+
+
+| risk_tier       | grade | sub_grade |
+| --------------- | ----- | --------- |
+| Low Risk        | A     | A1–A5     |
+| Low-Medium Risk | B     | B1–B5     |
+| Medium Risk     | C     | C1–C5     |
+| High Risk       | D–G   | D1–G5     | 
+
+
 
 
 
