@@ -123,8 +123,29 @@ Create `dti_risk_level` from `dti` column:
 | 35–50 | high            |
 | 50 +  | extremely risky | 
 
+| grade | sub_grade | Meaning     |
+| ----- | --------- | ----------- |
+| A     | A1–A5     | lowest risk |
+| B     | B1–B5     | low risk    |
+| C     | C1–C5     | medium risk |
+| D–G   | D1–G5     | higher risk | 
 
 ## Deployment Guideline 
+
+| Feature Category                 | Important Features                                       | Why Important                                                            |
+| -------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Loan Characteristics**         | loan_amnt, term, int_rate, installment, grade, sub_grade | Reflect risk level assigned by the lending platform and repayment burden |
+| **Income & Financial Stability** | annual_inc, verification_status, dti                     | Measure borrower’s ability to repay debt                                 |
+| **Credit History**               | earliest_cr_line, total_acc, open_acc                    | Longer and broader credit history usually indicates lower risk           |
+| **Credit Utilization**           | revol_bal, revol_util, all_util                          | High utilization often signals financial stress                          |
+| **Delinquency History**          | delinq_2yrs, acc_now_delinq, mths_since_last_delinq      | Past delinquencies strongly correlate with default risk                  |
+| **Public Records / Collections** | pub_rec, collections_12_mths_ex_med                      | Legal or collection issues indicate higher risk                          |
+| **Inquiry Behavior**             | inq_last_6mths, inq_last_12m, inq_fi                     | Frequent credit inquiries may indicate financial distress                |
+| **Installment Account Activity** | open_il_12m, open_il_24m, total_bal_il                   | Indicates recent borrowing behavior                                      |
+| **Revolving Credit Behavior**    | open_rv_12m, open_rv_24m, max_bal_bc                     | Shows revolving credit activity and risk                                 |
+| **Total Credit Exposure**        | tot_cur_bal, total_rev_hi_lim                            | Overall borrower debt exposure                                           |
+| **Borrower Profile**             | home_ownership, emp_length                               | Indicators of financial stability                                        | 
+
 
 
 
