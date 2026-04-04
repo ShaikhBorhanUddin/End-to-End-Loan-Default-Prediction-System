@@ -196,6 +196,14 @@ Sub Grade will be auto filtered upon selecting Grade. Once Sub Grade is selected
 | Medium Risk     | C     | C1–C5     |
 | High Risk       | D–G   | D1–G5     | 
 
+## Deployment 
+
+<p align="center">
+  <img src="Assets/image 1.png" width="34.5%" />
+  <img src="Assets/image 3.png" width="36%" />
+  <img src="Assets/image 4.png" width="27%" />
+</p>
+
 
 
 
