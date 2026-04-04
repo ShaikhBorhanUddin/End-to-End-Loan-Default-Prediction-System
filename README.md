@@ -202,21 +202,11 @@ Sub Grade will be auto filtered upon selecting Grade. Once Sub Grade is selected
   <img src="Assets/page 1.png" width="34.5%" />
   <img src="Assets/page 3.png" width="36%" />
   <img src="Assets/page 4.png" width="27%" />
-</p>
+</p> 
 
+Tentative UI 
 
-
-
-
-
-
-
-
-
-
-
-
-
+![Dashboard](Assets/tentative_UI.png) 
 
 
 
