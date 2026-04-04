@@ -199,9 +199,9 @@ Sub Grade will be auto filtered upon selecting Grade. Once Sub Grade is selected
 ## Deployment 
 
 <p align="center">
-  <img src="Assets/image 1.png" width="34.5%" />
-  <img src="Assets/image 3.png" width="36%" />
-  <img src="Assets/image 4.png" width="27%" />
+  <img src="Assets/page 1.png" width="34.5%" />
+  <img src="Assets/page 3.png" width="36%" />
+  <img src="Assets/page 4.png" width="27%" />
 </p>
 
 
