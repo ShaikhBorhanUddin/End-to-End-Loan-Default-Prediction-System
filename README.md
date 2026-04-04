@@ -57,6 +57,8 @@ Target: `loan_status`
 
 ## Feature Engineering 
 
+SHAP feature importance 
+
 ## Exploratory Data Analysis 
 
 ## Note 
