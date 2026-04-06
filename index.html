@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Status Prediction</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4 text-white text-xl font-semibold">
+    Loan Status Prediction Dashboard
+  </nav>
+
+  <div class="p-6 max-w-7xl mx-auto space-y-6">
+
+    <!-- GRID: 4 CLUSTERS ON ONE PAGE -->
+    <div class="grid grid-cols-2 gap-6">
+
+      <!-- Loan Info -->
+      <div class="bg-white p-6 rounded-2xl shadow space-y-4">
+        <h2 class="text-lg font-semibold">Loan Information</h2>
+        <div class="grid grid-cols-2 gap-3">
+          <input class="border p-2 rounded" placeholder="Loan Amount">
+          <input class="border p-2 rounded" placeholder="Term">
+          <input class="border p-2 rounded" placeholder="Interest Rate">
+          <input class="border p-2 rounded" placeholder="Installment">
+          <select class="border p-2 rounded"><option>Grade</option></select>
+          <select class="border p-2 rounded"><option>Sub Grade</option></select>
+          <select class="border p-2 rounded col-span-2"><option>Purpose</option></select>
+        </div>
+      </div>
+
+      <!-- Borrower Info -->
+      <div class="bg-white p-6 rounded-2xl shadow space-y-4">
+        <h2 class="text-lg font-semibold">Borrower Information</h2>
+        <div class="grid grid-cols-2 gap-3">
+          <input class="border p-2 rounded" placeholder="Annual Income">
+          <input class="border p-2 rounded" placeholder="Employment Length">
+          <select class="border p-2 rounded"><option>Home Ownership</option></select>
+          <select class="border p-2 rounded"><option>Verification Status</option></select>
+          <select class="border p-2 rounded col-span-2"><option>Address State</option></select>
+        </div>
+      </div>
+
+      <!-- Credit Behavior -->
+      <div class="bg-white p-6 rounded-2xl shadow space-y-4">
+        <h2 class="text-lg font-semibold">Credit Behavior</h2>
+        <div class="grid grid-cols-2 gap-3">
+          <input class="border p-2 rounded" placeholder="Open Accounts">
+          <input class="border p-2 rounded" placeholder="Total Accounts">
+          <input class="border p-2 rounded" placeholder="Revolving Balance">
+          <input class="border p-2 rounded" placeholder="Revolving Utilization">
+          <input class="border p-2 rounded" placeholder="All Utilization">
+          <input class="border p-2 rounded" placeholder="Total Current Balance">
+          <input class="border p-2 rounded" placeholder="Total Revolving High Limit">
+          <input type="date" class="border p-2 rounded col-span-2">
+        </div>
+      </div>
+
+      <!-- Risk Indicators -->
+      <div class="bg-white p-6 rounded-2xl shadow space-y-4">
+        <h2 class="text-lg font-semibold">Risk Indicators</h2>
+        <div class="grid grid-cols-2 gap-3">
+          <input class="border p-2 rounded" placeholder="DTI">
+          <input class="border p-2 rounded" placeholder="Delinquencies (2 yrs)">
+          <input class="border p-2 rounded" placeholder="Accounts Now Delinquent">
+          <input class="border p-2 rounded" placeholder="Months Since Last Delinquency">
+          <input class="border p-2 rounded" placeholder="Public Records">
+          <input class="border p-2 rounded" placeholder="Collections (12 months)">
+          <input class="border p-2 rounded" placeholder="Inquiries (6 months)">
+          <input class="border p-2 rounded" placeholder="Inquiries (12 months)">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Predict Button -->
+    <div class="text-center">
+      <button class="bg-blue-600 text-white px-8 py-3 rounded-2xl text-lg hover:bg-blue-700">
+        Predict Loan Status
+      </button>
+    </div>
+
+    <!-- Prediction Result -->
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-2">Prediction Result</h2>
+      <p class="text-3xl font-bold text-green-600">Fully Paid / Charged Off</p>
+    </div>
+
+    <!-- Feature Importance -->
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-2">Feature Importance</h2>
+      <div class="h-40 bg-gray-200 rounded flex items-center justify-center">
+        SHAP Chart Placeholder
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
